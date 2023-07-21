@@ -1,5 +1,4 @@
 import Exit from "../../assets/exit.svg";
-import XAAANE from "../../assets/zain-mcintire-at-gmail.png";
 import "./modal.scss";
 
 function Modal({ handleClose }) {
