@@ -1,0 +1,137 @@
+@import "../../global.scss";
+
+.hero-section {
+	background: $red;
+	overflow: hidden;
+	padding: 0 20px;
+
+	.hero {
+		max-width: $mw;
+		margin: $section;
+		display: flex;
+		flex-direction: row;
+		padding: 80px 0;
+
+		@media (max-width: 490px) {
+			padding: 40px 0;
+		}
+
+		.info-c {
+			flex-grow: 0;
+			flex-shrink: 1;
+
+			.info {
+				h2 {
+					font-size: 3rem;
+					font-weight: 700;
+					color: white;
+					margin-bottom: 30px;
+					font-family: $open;
+
+					@media (max-width: 490px) {
+						font-size: 2.6rem;
+					}
+
+					@media (max-width: 432px) {
+						font-size: 2.4rem;
+					}
+
+					@media (max-width: 400px) {
+						font-size: 1.8rem;
+					}
+
+					span {
+						text-decoration: underline;
+						text-decoration-thickness: 3px;
+						text-underline-offset: 3px;
+						font-weight: 700;
+						color: white;
+						font-style: italic;
+					}
+				}
+
+				.actions {
+					margin-top: 20px;
+
+					h4 {
+						color: white;
+					}
+
+					ul {
+						display: inline-block;
+						list-style: none;
+						border-left: 1px solid white;
+						padding-left: 10px;
+						margin: 10px 0;
+
+						li {
+							font-size: 14px;
+							color: white;
+							cursor: pointer;
+
+							&:hover {
+								text-decoration: underline;
+							}
+						}
+					}
+				}
+
+				.secondary {
+					color: white;
+					margin: 20px 0;
+					display: block;
+				}
+
+				.question {
+					text-decoration: underline;
+				}
+			}
+		}
+
+		.image-c {
+			position: relative;
+			flex-grow: 1;
+			flex-shrink: 0;
+
+			@media (max-width: 600px) {
+				display: none;
+			}
+
+			.hero-image {
+				position: absolute;
+				top: 50%;
+				transform: translate(0, -50%);
+				width: 70%;
+				height: 100%;
+				right: 0;
+				border-radius: 100% 50% 25% 10%;
+				background: white;
+
+				@media (max-width: 1040px) {
+					height: calc(100vw / 2.5);
+				}
+
+				@media (max-width: 768px) {
+					transform: none;
+					width: 150%;
+					height: 80%;
+					right: -60%;
+					top: 45%;
+					border-radius: 100% 50% 25% 50%;
+				}
+
+				img {
+					position: relative;
+					object-fit: contain;
+					width: 150%;
+					height: 150%;
+					transform: translate(-18%, -15%);
+
+					@media (max-width: 768px) {
+						width: 200%;
+					}
+				}
+			}
+		}
+	}
+}

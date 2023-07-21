@@ -1,0 +1,30 @@
+@import "../../global.scss";
+
+.custom-label,
+.custom-zip {
+	color: white !important;
+}
+
+.custom-select,
+.custom-zip {
+	width: 100%;
+	color: white;
+	* {
+		color: white !important;
+		border-color: white !important;
+	}
+}
+
+.custom-button {
+	background: white !important;
+	color: $red !important;
+	text-transform: none !important;
+	font-weight: 600 !important;
+	align-self: start !important;
+	height: 56px;
+	margin-top: 16px !important;
+
+	&:hover {
+		opacity: 0.9 !important;
+	}
+}

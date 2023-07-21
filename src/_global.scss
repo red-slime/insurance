@@ -1,0 +1,116 @@
+/*
+768
+432
+*/
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	transition: all 0.2s linear;
+}
+
+a {
+	color: #212121;
+	text-decoration: none;
+}
+
+html,
+body {
+	scroll-behavior: smooth;
+}
+
+$red: #d62311;
+$tan: #f7f0e4;
+$gray: #f4f3f3;
+$dark-gray: #403c3c;
+$black: #212121;
+
+$mw: 1140px;
+$section: 10px auto;
+
+$open: "Open Sans", sans-serif;
+$lato: "Lato", sans-serif;
+$martel: "Martel Sans", sans-serif;
+
+h2 {
+	line-height: 1.2;
+	font-size: 3rem;
+	font-weight: 700;
+	color: $black;
+	font-family: $open;
+}
+
+p {
+	line-height: 1.8;
+}
+
+.subheading {
+	font-size: 1.4rem;
+	line-height: 1.4;
+
+	@media (max-width: 490px) {
+		font-size: 1.2rem;
+		line-height: 1.8;
+	}
+
+	@media (max-width: 432px) {
+		font-size: 1rem;
+	}
+
+	@media (max-width: 400px) {
+		font-size: 1rem;
+	}
+}
+
+.button {
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+	background: $red;
+	padding: 12px 24px;
+	border-radius: 5px;
+	border: 1px solid $red;
+	transition: all 0.1s linear;
+
+	&:hover {
+		background: white;
+		color: $red;
+	}
+}
+
+.button-secondary {
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	color: $dark-gray;
+	font-size: 14px;
+	font-weight: 600;
+	background: $gray;
+	padding: 12px 24px;
+	border-radius: 5px;
+	transition: all 0.1s linear;
+
+	&:hover {
+		background: white;
+		color: $red;
+	}
+}
+
+.underlined {
+	text-decoration: underline;
+	text-decoration-thickness: 4px;
+	text-underline-offset: 3px;
+	text-decoration-color: $red;
+	font-style: italic;
+}
+
+.red-link {
+	font-weight: 700;
+	color: $red;
+	font-size: 15px;
+
+	&:hover {
+		text-decoration: underline;
+		filter: saturate(120%);
+	}
+}

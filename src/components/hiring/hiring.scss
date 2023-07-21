@@ -1,0 +1,51 @@
+@import "../../global.scss";
+
+.hiring-section {
+	padding: 120px 20px;
+	background: $tan;
+	@media (max-width: 490px) {
+		padding: 30px 20px 80px 20px;
+	}
+
+	.hiring-container {
+		max-width: $mw;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		@media (max-width: 490px) {
+			flex-direction: column;
+		}
+
+		.hiring-image {
+			transform: translateY(-25px);
+			@media (max-width: 490px) {
+				transform: none;
+				margin-bottom: 10px;
+			}
+		}
+
+		.hiring-info {
+			margin-left: 30px;
+			h2 {
+				font-size: 2.4rem;
+				margin-bottom: 15px;
+				@media (max-width: 490px) {
+					font-size: 2.2rem;
+				}
+
+				@media (max-width: 432px) {
+					font-size: 2.2rem;
+				}
+
+				@media (max-width: 400px) {
+					font-size: 1.6rem;
+				}
+			}
+			p {
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
