@@ -44,7 +44,12 @@ const Footer = () => {
 				<div className="copyright">
 					<p>
 						© No Copyright 2023, Fake Website - Designed & Developed by{" "}
-						<a href="https://xaaane.com/" className="real-link">
+						<a
+							href="https://xaaane.com/"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="real-link"
+						>
 							XAAANE
 						</a>{" "}
 						using{" "}
