@@ -20,7 +20,12 @@ function Modal({ handleClose }) {
 							I'm looking to sell this site to an insurance company in Augusta -
 							interested?
 						</p>
-						<a href="https://xaaane.com/" target="_blank" className="third">
+						<a
+							href="https://xaaane.com/"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="third"
+						>
 							See what else I've built.
 						</a>
 						<p className="fourth">Full sites include:</p>

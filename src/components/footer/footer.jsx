@@ -48,7 +48,12 @@ const Footer = () => {
 							Xane McIntire
 						</a>{" "}
 						using{" "}
-						<a href="https://react.dev/" className="real-link" target="_blank">
+						<a
+							href="https://react.dev/"
+							className="real-link"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							React
 						</a>
 					</p>
