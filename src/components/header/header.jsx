@@ -7,7 +7,6 @@ import Instagram from "../../assets/instagram.svg";
 import Twitter from "../../assets/twitter.svg";
 import LinkedIn from "../../assets/linkedin-in.svg";
 import "./header.scss";
-//import Logo from "../../assets/logo.png";
 
 const Header = () => {
 	/////////////////////////
@@ -48,9 +47,9 @@ const Header = () => {
 		toggleMenu();
 	};
 
-	const handleLinkClick = () => {
-		closeMenu();
-	};
+	// const handleLinkClick = () => {
+	// 	closeMenu();
+	// };
 
 	/////////////////////////
 	/* End mobile menu */

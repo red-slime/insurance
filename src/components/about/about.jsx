@@ -1,8 +1,5 @@
 import { useRef, useEffect } from "react";
 import aVideo from "../../assets/affordable.mp4";
-import progressive from "../../assets/progressive.svg";
-import gainsco from "../../assets/gainsco.png";
-import assurance from "../../assets/assurance-america.png";
 import "./about.scss";
 
 const About = () => {
