@@ -24,7 +24,7 @@ function Modal({ handleClose }) {
 							href="https://xaaane.com/"
 							target="_blank"
 							rel="noopener noreferrer"
-							className="third"
+							className="third real-link"
 						>
 							See what else I've built.
 						</a>
