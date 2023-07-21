@@ -44,8 +44,8 @@ const Footer = () => {
 				<div className="copyright">
 					<p>
 						© No Copyright 2023, Fake Website - Designed & Developed by{" "}
-						<a href="mailto:zainmcintire@gmail.com" className="real-link">
-							Xane McIntire
+						<a href="https://xaaane.com/" className="real-link">
+							XAAANE
 						</a>{" "}
 						using{" "}
 						<a
