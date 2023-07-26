@@ -7,7 +7,7 @@
 	width: 100%;
 	height: 100vh;
 	background: rgba(255, 255, 255, 0.5);
-	z-index: 3;
+	z-index: 999;
 }
 
 .modal {
@@ -28,7 +28,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
-	z-index: 10;
+	z-index: 9999;
 
 	.content {
 		position: relative;
@@ -89,7 +89,7 @@
 		border-radius: 30px;
 		background: none;
 		cursor: pointer;
-		z-index: 99;
+		z-index: 999;
 
 		img {
 			width: 100%;

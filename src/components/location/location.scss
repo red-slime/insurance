@@ -1,8 +1,10 @@
 @import "../../global.scss";
 
 .graybar {
+	position: relative;
 	background: $gray;
 	padding: 8px 20px;
+	z-index: 666;
 
 	.gray-container {
 		max-width: $mw;

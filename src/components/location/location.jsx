@@ -32,7 +32,13 @@ const LocationComponent = () => {
 				getCityName(latitude, longitude);
 			},
 			(error) => {
-				console.log(error);
+				// console.log(error);
+				setLocation({
+					latitude: null,
+					longitude: null,
+					city: "Augusta",
+					state: "GA",
+				});
 			},
 			{
 				enableHighAccuracy: true,
